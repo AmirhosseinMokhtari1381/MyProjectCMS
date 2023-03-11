@@ -1,0 +1,1202 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataLayer.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DataLayer.Context.Fakes.ShimMyProjectContext">
+            <summary>Shim type of DataLayer.Context.MyProjectContext</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.ShimMyProjectContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.ShimMyProjectContext.#ctor(DataLayer.Context.MyProjectContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.BlogGroupsGet">
+            <summary>Sets the shim of MyProjectContext.get_BlogGroups()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.BlogGroupsSetDbSetOfBlogGroup">
+            <summary>Sets the shim of MyProjectContext.set_BlogGroups(DbSet`1&lt;BlogGroup&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.BlogsGet">
+            <summary>Sets the shim of MyProjectContext.get_Blogs()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.BlogsSetDbSetOfBlog">
+            <summary>Sets the shim of MyProjectContext.set_Blogs(DbSet`1&lt;Blog&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of MyProjectContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.blogCommentsGet">
+            <summary>Sets the shim of MyProjectContext.get_blogComments()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.AllInstances.blogCommentsSetDbSetOfBlogComment">
+            <summary>Sets the shim of MyProjectContext.set_blogComments(DbSet`1&lt;BlogComment&gt; value)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.ShimMyProjectContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.ShimMyProjectContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.ShimMyProjectContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.ShimMyProjectContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.BlogGroupsGet">
+            <summary>Sets the shim of MyProjectContext.get_BlogGroups()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.BlogGroupsSetDbSetOfBlogGroup">
+            <summary>Sets the shim of MyProjectContext.set_BlogGroups(DbSet`1&lt;BlogGroup&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.BlogsGet">
+            <summary>Sets the shim of MyProjectContext.get_Blogs()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.BlogsSetDbSetOfBlog">
+            <summary>Sets the shim of MyProjectContext.set_Blogs(DbSet`1&lt;Blog&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.Constructor">
+            <summary>Sets the shim of MyProjectContext.MyProjectContext()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of MyProjectContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.blogCommentsGet">
+            <summary>Sets the shim of MyProjectContext.get_blogComments()</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.ShimMyProjectContext.blogCommentsSetDbSetOfBlogComment">
+            <summary>Sets the shim of MyProjectContext.set_blogComments(DbSet`1&lt;BlogComment&gt; value)</summary>
+        </member>
+        <member name="T:DataLayer.Context.Fakes.StubMyProjectContext">
+            <summary>Stub type of DataLayer.Context.MyProjectContext</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.StubMyProjectContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.InitializeStub">
+            <summary>Initializes a new instance of type StubMyProjectContext</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.StubMyProjectContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Context.Fakes.StubMyProjectContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of MyProjectContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of MyProjectContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.Set(System.Type)">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.Set``1">
+            <summary>Sets the stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:DataLayer.Context.Fakes.StubMyProjectContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:DataLayer.Context.Fakes.StubMyProjectContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="T:DataLayer.Mapping.Fakes.ShimBlogCommentConfig">
+            <summary>Shim type of DataLayer.Mapping.BlogCommentConfig</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.#ctor(DataLayer.Mapping.BlogCommentConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Mapping.Fakes.ShimBlogCommentConfig.Constructor">
+            <summary>Sets the shim of BlogCommentConfig.BlogCommentConfig()</summary>
+        </member>
+        <member name="T:DataLayer.Mapping.Fakes.ShimBlogConfig">
+            <summary>Shim type of DataLayer.Mapping.BlogConfig</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogConfig.#ctor(DataLayer.Mapping.BlogConfig)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Mapping.Fakes.ShimBlogConfig.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Mapping.Fakes.ShimBlogConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Mapping.Fakes.ShimBlogConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Mapping.Fakes.ShimBlogConfig.Constructor">
+            <summary>Sets the shim of BlogConfig.BlogConfig()</summary>
+        </member>
+        <member name="T:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt">
+            <summary>Shim type of DataLayer.Migrations.ChangeVisitTypeStringToInt</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.#ctor(DataLayer.Migrations.ChangeVisitTypeStringToInt)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.AllInstances.Down">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.Down()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.AllInstances.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.AllInstances.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.AllInstances.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.AllInstances.Up">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.Up()</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.Bind(System.Data.Entity.Migrations.Infrastructure.IDbMigration)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.Bind(System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.Constructor">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.ChangeVisitTypeStringToInt()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.Down">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.Down()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimChangeVisitTypeStringToInt.Up">
+            <summary>Sets the shim of ChangeVisitTypeStringToInt.Up()</summary>
+        </member>
+        <member name="T:DataLayer.Migrations.Fakes.ShimFirstDB">
+            <summary>Shim type of DataLayer.Migrations.FirstDB</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimFirstDB.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimFirstDB.#ctor(DataLayer.Migrations.FirstDB)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Migrations.Fakes.ShimFirstDB.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.AllInstances.Down">
+            <summary>Sets the shim of FirstDB.Down()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.AllInstances.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of FirstDB.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.AllInstances.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of FirstDB.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.AllInstances.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of FirstDB.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.AllInstances.Up">
+            <summary>Sets the shim of FirstDB.Up()</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimFirstDB.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimFirstDB.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimFirstDB.Bind(System.Data.Entity.Migrations.Infrastructure.IDbMigration)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DataLayer.Migrations.Fakes.ShimFirstDB.Bind(System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.Constructor">
+            <summary>Sets the shim of FirstDB.FirstDB()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.Down">
+            <summary>Sets the shim of FirstDB.Down()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.IdSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of FirstDB.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Id()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.SourceSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of FirstDB.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Source()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.TargetSystemDataEntityMigrationsInfrastructureIMigrationMetadataget">
+            <summary>Sets the shim of FirstDB.System.Data.Entity.Migrations.Infrastructure.IMigrationMetadata.get_Target()</summary>
+        </member>
+        <member name="P:DataLayer.Migrations.Fakes.ShimFirstDB.Up">
+            <summary>Sets the shim of FirstDB.Up()</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimBlog">
+            <summary>Shim type of DataLayer.Models.Blog</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlog.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlog.#ctor(DataLayer.Models.Blog)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimBlog.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogCommentsGet">
+            <summary>Sets the shim of Blog.get_BlogComments()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogCommentsSetICollectionOfBlogComment">
+            <summary>Sets the shim of Blog.set_BlogComments(ICollection`1&lt;BlogComment&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogGroupGet">
+            <summary>Sets the shim of Blog.get_BlogGroup()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogGroupSetBlogGroup">
+            <summary>Sets the shim of Blog.set_BlogGroup(BlogGroup value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogIdGet">
+            <summary>Sets the shim of Blog.get_BlogId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogIdSetInt32">
+            <summary>Sets the shim of Blog.set_BlogId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogTexeGet">
+            <summary>Sets the shim of Blog.get_BlogTexe()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.BlogTexeSetString">
+            <summary>Sets the shim of Blog.set_BlogTexe(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.CreateDateGet">
+            <summary>Sets the shim of Blog.get_CreateDate()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.CreateDateSetDateTime">
+            <summary>Sets the shim of Blog.set_CreateDate(DateTime value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.GroupIdGet">
+            <summary>Sets the shim of Blog.get_GroupId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.GroupIdSetInt32">
+            <summary>Sets the shim of Blog.set_GroupId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.ImageNameGet">
+            <summary>Sets the shim of Blog.get_ImageName()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.ImageNameSetString">
+            <summary>Sets the shim of Blog.set_ImageName(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.ShortDescriptionGet">
+            <summary>Sets the shim of Blog.get_ShortDescription()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.ShortDescriptionSetString">
+            <summary>Sets the shim of Blog.set_ShortDescription(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.TitleGet">
+            <summary>Sets the shim of Blog.get_Title()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.TitleSetString">
+            <summary>Sets the shim of Blog.set_Title(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.VisitGet">
+            <summary>Sets the shim of Blog.get_Visit()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.AllInstances.VisitSetInt32">
+            <summary>Sets the shim of Blog.set_Visit(Int32 value)</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlog.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlog.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogCommentsGet">
+            <summary>Sets the shim of Blog.get_BlogComments()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogCommentsSetICollectionOfBlogComment">
+            <summary>Sets the shim of Blog.set_BlogComments(ICollection`1&lt;BlogComment&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogGroupGet">
+            <summary>Sets the shim of Blog.get_BlogGroup()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogGroupSetBlogGroup">
+            <summary>Sets the shim of Blog.set_BlogGroup(BlogGroup value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogIdGet">
+            <summary>Sets the shim of Blog.get_BlogId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogIdSetInt32">
+            <summary>Sets the shim of Blog.set_BlogId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogTexeGet">
+            <summary>Sets the shim of Blog.get_BlogTexe()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.BlogTexeSetString">
+            <summary>Sets the shim of Blog.set_BlogTexe(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.Constructor">
+            <summary>Sets the shim of Blog.Blog()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.CreateDateGet">
+            <summary>Sets the shim of Blog.get_CreateDate()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.CreateDateSetDateTime">
+            <summary>Sets the shim of Blog.set_CreateDate(DateTime value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.GroupIdGet">
+            <summary>Sets the shim of Blog.get_GroupId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.GroupIdSetInt32">
+            <summary>Sets the shim of Blog.set_GroupId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.ImageNameGet">
+            <summary>Sets the shim of Blog.get_ImageName()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.ImageNameSetString">
+            <summary>Sets the shim of Blog.set_ImageName(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.ShortDescriptionGet">
+            <summary>Sets the shim of Blog.get_ShortDescription()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.ShortDescriptionSetString">
+            <summary>Sets the shim of Blog.set_ShortDescription(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.TitleGet">
+            <summary>Sets the shim of Blog.get_Title()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.TitleSetString">
+            <summary>Sets the shim of Blog.set_Title(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.VisitGet">
+            <summary>Sets the shim of Blog.get_Visit()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlog.VisitSetInt32">
+            <summary>Sets the shim of Blog.set_Visit(Int32 value)</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimBlogComment">
+            <summary>Shim type of DataLayer.Models.BlogComment</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogComment.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogComment.#ctor(DataLayer.Models.BlogComment)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimBlogComment.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.BlogGet">
+            <summary>Sets the shim of BlogComment.get_Blog()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.BlogIdGet">
+            <summary>Sets the shim of BlogComment.get_BlogId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.BlogIdSetInt32">
+            <summary>Sets the shim of BlogComment.set_BlogId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.BlogSetBlog">
+            <summary>Sets the shim of BlogComment.set_Blog(Blog value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.CommentGet">
+            <summary>Sets the shim of BlogComment.get_Comment()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.CommentIdGet">
+            <summary>Sets the shim of BlogComment.get_CommentId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.CommentIdSetInt32">
+            <summary>Sets the shim of BlogComment.set_CommentId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.CommentSetString">
+            <summary>Sets the shim of BlogComment.set_Comment(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.CreatedDateGet">
+            <summary>Sets the shim of BlogComment.get_CreatedDate()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.CreatedDateSetDateTime">
+            <summary>Sets the shim of BlogComment.set_CreatedDate(DateTime value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.EmailGet">
+            <summary>Sets the shim of BlogComment.get_Email()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.EmailSetString">
+            <summary>Sets the shim of BlogComment.set_Email(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.NameGet">
+            <summary>Sets the shim of BlogComment.get_Name()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.NameSetString">
+            <summary>Sets the shim of BlogComment.set_Name(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.WebsiteGet">
+            <summary>Sets the shim of BlogComment.get_Website()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.AllInstances.WebsiteSetString">
+            <summary>Sets the shim of BlogComment.set_Website(String value)</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogComment.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogComment.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.BlogGet">
+            <summary>Sets the shim of BlogComment.get_Blog()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.BlogIdGet">
+            <summary>Sets the shim of BlogComment.get_BlogId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.BlogIdSetInt32">
+            <summary>Sets the shim of BlogComment.set_BlogId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.BlogSetBlog">
+            <summary>Sets the shim of BlogComment.set_Blog(Blog value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.CommentGet">
+            <summary>Sets the shim of BlogComment.get_Comment()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.CommentIdGet">
+            <summary>Sets the shim of BlogComment.get_CommentId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.CommentIdSetInt32">
+            <summary>Sets the shim of BlogComment.set_CommentId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.CommentSetString">
+            <summary>Sets the shim of BlogComment.set_Comment(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.Constructor">
+            <summary>Sets the shim of BlogComment.BlogComment()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.CreatedDateGet">
+            <summary>Sets the shim of BlogComment.get_CreatedDate()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.CreatedDateSetDateTime">
+            <summary>Sets the shim of BlogComment.set_CreatedDate(DateTime value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.EmailGet">
+            <summary>Sets the shim of BlogComment.get_Email()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.EmailSetString">
+            <summary>Sets the shim of BlogComment.set_Email(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.NameGet">
+            <summary>Sets the shim of BlogComment.get_Name()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.NameSetString">
+            <summary>Sets the shim of BlogComment.set_Name(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.WebsiteGet">
+            <summary>Sets the shim of BlogComment.get_Website()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogComment.WebsiteSetString">
+            <summary>Sets the shim of BlogComment.set_Website(String value)</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimBlogGroup">
+            <summary>Shim type of DataLayer.Models.BlogGroup</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogGroup.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogGroup.#ctor(DataLayer.Models.BlogGroup)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances.BlogsGet">
+            <summary>Sets the shim of BlogGroup.get_Blogs()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances.BlogsSetICollectionOfBlog">
+            <summary>Sets the shim of BlogGroup.set_Blogs(ICollection`1&lt;Blog&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances.GroupIdGet">
+            <summary>Sets the shim of BlogGroup.get_GroupId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances.GroupIdSetInt32">
+            <summary>Sets the shim of BlogGroup.set_GroupId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances.GroupTitleGet">
+            <summary>Sets the shim of BlogGroup.get_GroupTitle()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.AllInstances.GroupTitleSetString">
+            <summary>Sets the shim of BlogGroup.set_GroupTitle(String value)</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogGroup.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.ShimBlogGroup.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.BlogsGet">
+            <summary>Sets the shim of BlogGroup.get_Blogs()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.BlogsSetICollectionOfBlog">
+            <summary>Sets the shim of BlogGroup.set_Blogs(ICollection`1&lt;Blog&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.Constructor">
+            <summary>Sets the shim of BlogGroup.BlogGroup()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.GroupIdGet">
+            <summary>Sets the shim of BlogGroup.get_GroupId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.GroupIdSetInt32">
+            <summary>Sets the shim of BlogGroup.set_GroupId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.GroupTitleGet">
+            <summary>Sets the shim of BlogGroup.get_GroupTitle()</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.ShimBlogGroup.GroupTitleSetString">
+            <summary>Sets the shim of BlogGroup.set_GroupTitle(String value)</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.StubBlog">
+            <summary>Stub type of DataLayer.Models.Blog</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlog.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlog.AttachBackingFieldToBlogComments">
+            <summary>Attaches delegates to emulate StubBlog.BlogComments as a property with a backing field.</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlog.AttachBackingFieldToBlogGroup">
+            <summary>Attaches delegates to emulate StubBlog.BlogGroup as a property with a backing field.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlog.BlogComments">
+            <summary>Sets the stub of Blog.get_BlogComments()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlog.BlogCommentsGet">
+            <summary>Sets the stub of Blog.get_BlogComments()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlog.BlogCommentsSetICollectionOfBlogComment">
+            <summary>Sets the stub of Blog.set_BlogComments(ICollection`1&lt;BlogComment&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlog.BlogGroup">
+            <summary>Sets the stub of Blog.get_BlogGroup()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlog.BlogGroupGet">
+            <summary>Sets the stub of Blog.get_BlogGroup()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlog.BlogGroupSetBlogGroup">
+            <summary>Sets the stub of Blog.set_BlogGroup(BlogGroup value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlog.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlog.InitializeStub">
+            <summary>Initializes a new instance of type StubBlog</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlog.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlog.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.StubBlogComment">
+            <summary>Stub type of DataLayer.Models.BlogComment</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlogComment.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlogComment.AttachBackingFieldToBlog">
+            <summary>Attaches delegates to emulate StubBlogComment.Blog as a property with a backing field.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogComment.Blog">
+            <summary>Sets the stub of BlogComment.get_Blog()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlogComment.BlogGet">
+            <summary>Sets the stub of BlogComment.get_Blog()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlogComment.BlogSetBlog">
+            <summary>Sets the stub of BlogComment.set_Blog(Blog value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogComment.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlogComment.InitializeStub">
+            <summary>Initializes a new instance of type StubBlogComment</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogComment.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogComment.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataLayer.Models.Fakes.StubBlogGroup">
+            <summary>Stub type of DataLayer.Models.BlogGroup</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlogGroup.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlogGroup.AttachBackingFieldToBlogs">
+            <summary>Attaches delegates to emulate StubBlogGroup.Blogs as a property with a backing field.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogGroup.Blogs">
+            <summary>Sets the stub of BlogGroup.get_Blogs()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlogGroup.BlogsGet">
+            <summary>Sets the stub of BlogGroup.get_Blogs()</summary>
+        </member>
+        <member name="F:DataLayer.Models.Fakes.StubBlogGroup.BlogsSetICollectionOfBlog">
+            <summary>Sets the stub of BlogGroup.set_Blogs(ICollection`1&lt;Blog&gt; value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogGroup.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Models.Fakes.StubBlogGroup.InitializeStub">
+            <summary>Initializes a new instance of type StubBlogGroup</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogGroup.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Models.Fakes.StubBlogGroup.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel">
+            <summary>Shim type of DataLayer.Models.ViewModels.BlogViewModel</summary>
+        </member>
+        <member name="M:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.#ctor(DataLayer.Models.ViewModels.BlogViewModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.BlogIdGet">
+            <summary>Sets the shim of BlogViewModel.get_BlogId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.BlogIdSetInt32">
+            <summary>Sets the shim of BlogViewModel.set_BlogId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.BlogTexeGet">
+            <summary>Sets the shim of BlogViewModel.get_BlogTexe()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.BlogTexeSetString">
+            <summary>Sets the shim of BlogViewModel.set_BlogTexe(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.CreateDateGet">
+            <summary>Sets the shim of BlogViewModel.get_CreateDate()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.CreateDateSetDateTime">
+            <summary>Sets the shim of BlogViewModel.set_CreateDate(DateTime value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.GroupIdGet">
+            <summary>Sets the shim of BlogViewModel.get_GroupId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.GroupIdSetInt32">
+            <summary>Sets the shim of BlogViewModel.set_GroupId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.ImageNameGet">
+            <summary>Sets the shim of BlogViewModel.get_ImageName()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.ImageNameSetString">
+            <summary>Sets the shim of BlogViewModel.set_ImageName(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.ImageUploadGet">
+            <summary>Sets the shim of BlogViewModel.get_ImageUpload()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.ImageUploadSetHttpPostedFileBase">
+            <summary>Sets the shim of BlogViewModel.set_ImageUpload(HttpPostedFileBase value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.ShortDescriptionGet">
+            <summary>Sets the shim of BlogViewModel.get_ShortDescription()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.ShortDescriptionSetString">
+            <summary>Sets the shim of BlogViewModel.set_ShortDescription(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.TitleGet">
+            <summary>Sets the shim of BlogViewModel.get_Title()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.TitleSetString">
+            <summary>Sets the shim of BlogViewModel.set_Title(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.VisitGet">
+            <summary>Sets the shim of BlogViewModel.get_Visit()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.AllInstances.VisitSetInt32">
+            <summary>Sets the shim of BlogViewModel.set_Visit(Int32 value)</summary>
+        </member>
+        <member name="M:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.BlogIdGet">
+            <summary>Sets the shim of BlogViewModel.get_BlogId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.BlogIdSetInt32">
+            <summary>Sets the shim of BlogViewModel.set_BlogId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.BlogTexeGet">
+            <summary>Sets the shim of BlogViewModel.get_BlogTexe()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.BlogTexeSetString">
+            <summary>Sets the shim of BlogViewModel.set_BlogTexe(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.Constructor">
+            <summary>Sets the shim of BlogViewModel.BlogViewModel()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.CreateDateGet">
+            <summary>Sets the shim of BlogViewModel.get_CreateDate()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.CreateDateSetDateTime">
+            <summary>Sets the shim of BlogViewModel.set_CreateDate(DateTime value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.GroupIdGet">
+            <summary>Sets the shim of BlogViewModel.get_GroupId()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.GroupIdSetInt32">
+            <summary>Sets the shim of BlogViewModel.set_GroupId(Int32 value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.ImageNameGet">
+            <summary>Sets the shim of BlogViewModel.get_ImageName()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.ImageNameSetString">
+            <summary>Sets the shim of BlogViewModel.set_ImageName(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.ImageUploadGet">
+            <summary>Sets the shim of BlogViewModel.get_ImageUpload()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.ImageUploadSetHttpPostedFileBase">
+            <summary>Sets the shim of BlogViewModel.set_ImageUpload(HttpPostedFileBase value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.ShortDescriptionGet">
+            <summary>Sets the shim of BlogViewModel.get_ShortDescription()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.ShortDescriptionSetString">
+            <summary>Sets the shim of BlogViewModel.set_ShortDescription(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.TitleGet">
+            <summary>Sets the shim of BlogViewModel.get_Title()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.TitleSetString">
+            <summary>Sets the shim of BlogViewModel.set_Title(String value)</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.VisitGet">
+            <summary>Sets the shim of BlogViewModel.get_Visit()</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.ShimBlogViewModel.VisitSetInt32">
+            <summary>Sets the shim of BlogViewModel.set_Visit(Int32 value)</summary>
+        </member>
+        <member name="T:DataLayer.Models.ViewModels.Fakes.StubBlogViewModel">
+            <summary>Stub type of DataLayer.Models.ViewModels.BlogViewModel</summary>
+        </member>
+        <member name="M:DataLayer.Models.ViewModels.Fakes.StubBlogViewModel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.StubBlogViewModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Models.ViewModels.Fakes.StubBlogViewModel.InitializeStub">
+            <summary>Initializes a new instance of type StubBlogViewModel</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.StubBlogViewModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Models.ViewModels.Fakes.StubBlogViewModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataLayer.Repositories.Fakes.StubIBlogGroupRepository">
+            <summary>Stub type of DataLayer.Repositories.IBlogGroupRepository</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.#ctor">
+            <summary>Initializes a new instance of type StubIBlogGroupRepository</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.CreateBlogGroup">
+            <summary>Sets the stub of IBlogGroupRepository.Create(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DataLayer#Repositories#IBlogGroupRepository#Create(DataLayer.Models.BlogGroup)">
+            <summary>Sets the stub of IBlogGroupRepository.Create(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DataLayer#Repositories#IBlogGroupRepository#DeleteById(System.Int32)">
+            <summary>Sets the stub of IBlogGroupRepository.DeleteById(Int32 GroupId)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DataLayer#Repositories#IBlogGroupRepository#Edit(DataLayer.Models.BlogGroup)">
+            <summary>Sets the stub of IBlogGroupRepository.Edit(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DataLayer#Repositories#IBlogGroupRepository#GetAll">
+            <summary>Sets the stub of IBlogGroupRepository.GetAll()</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DataLayer#Repositories#IBlogGroupRepository#GetById(System.Int32)">
+            <summary>Sets the stub of IBlogGroupRepository.GetById(Int32 GroupId)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DataLayer#Repositories#IBlogGroupRepository#Save">
+            <summary>Sets the stub of IBlogGroupRepository.Save()</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.DeleteByIdInt32">
+            <summary>Sets the stub of IBlogGroupRepository.DeleteById(Int32 GroupId)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.EditBlogGroup">
+            <summary>Sets the stub of IBlogGroupRepository.Edit(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.GetAll">
+            <summary>Sets the stub of IBlogGroupRepository.GetAll()</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.GetByIdInt32">
+            <summary>Sets the stub of IBlogGroupRepository.GetById(Int32 GroupId)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.Save">
+            <summary>Sets the stub of IBlogGroupRepository.Save()</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogGroupRepository.System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:DataLayer.Repositories.Fakes.StubIBlogRepository">
+            <summary>Stub type of DataLayer.Repositories.IBlogRepository</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.#ctor">
+            <summary>Initializes a new instance of type StubIBlogRepository</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.CreateBlog">
+            <summary>Sets the stub of IBlogRepository.Create(Blog blog)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#Create(DataLayer.Models.Blog)">
+            <summary>Sets the stub of IBlogRepository.Create(Blog blog)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#DeleteById(System.Int32)">
+            <summary>Sets the stub of IBlogRepository.DeleteById(Int32 blogId)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#Edit(DataLayer.Models.Blog)">
+            <summary>Sets the stub of IBlogRepository.Edit(Blog blog)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#GetAll">
+            <summary>Sets the stub of IBlogRepository.GetAll()</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#GetById(System.Int32)">
+            <summary>Sets the stub of IBlogRepository.GetById(Int32 BlogId)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#GetByIdForVM(System.Int32)">
+            <summary>Sets the stub of IBlogRepository.GetByIdForVM(Int32 BlogId)</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.DataLayer#Repositories#IBlogRepository#Save">
+            <summary>Sets the stub of IBlogRepository.Save()</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.DeleteByIdInt32">
+            <summary>Sets the stub of IBlogRepository.DeleteById(Int32 blogId)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.EditBlog">
+            <summary>Sets the stub of IBlogRepository.Edit(Blog blog)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.GetAll">
+            <summary>Sets the stub of IBlogRepository.GetAll()</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.GetByIdForVMInt32">
+            <summary>Sets the stub of IBlogRepository.GetByIdForVM(Int32 BlogId)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.GetByIdInt32">
+            <summary>Sets the stub of IBlogRepository.GetById(Int32 BlogId)</summary>
+        </member>
+        <member name="F:DataLayer.Repositories.Fakes.StubIBlogRepository.Save">
+            <summary>Sets the stub of IBlogRepository.Save()</summary>
+        </member>
+        <member name="M:DataLayer.Repositories.Fakes.StubIBlogRepository.System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="T:DataLayer.Services.Fakes.ShimBlogGroupRepository">
+            <summary>Shim type of DataLayer.Services.BlogGroupRepository</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogGroupRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogGroupRepository.#ctor(DataLayer.Services.BlogGroupRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.CreateBlogGroup">
+            <summary>Sets the shim of BlogGroupRepository.Create(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.DeleteByIdInt32">
+            <summary>Sets the shim of BlogGroupRepository.DeleteById(Int32 GroupId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.Dispose">
+            <summary>Sets the shim of BlogGroupRepository.Dispose()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.EditBlogGroup">
+            <summary>Sets the shim of BlogGroupRepository.Edit(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.GetAll">
+            <summary>Sets the shim of BlogGroupRepository.GetAll()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of BlogGroupRepository.GetById(Int32 groupId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.AllInstances.Save">
+            <summary>Sets the shim of BlogGroupRepository.Save()</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogGroupRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogGroupRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogGroupRepository.Bind(DataLayer.Repositories.IBlogGroupRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogGroupRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.ConstructorMyProjectContext">
+            <summary>Sets the shim of BlogGroupRepository.BlogGroupRepository(MyProjectContext context)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.CreateBlogGroup">
+            <summary>Sets the shim of BlogGroupRepository.Create(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.DeleteByIdInt32">
+            <summary>Sets the shim of BlogGroupRepository.DeleteById(Int32 GroupId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.Dispose">
+            <summary>Sets the shim of BlogGroupRepository.Dispose()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.EditBlogGroup">
+            <summary>Sets the shim of BlogGroupRepository.Edit(BlogGroup blogGroup)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.GetAll">
+            <summary>Sets the shim of BlogGroupRepository.GetAll()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.GetByIdInt32">
+            <summary>Sets the shim of BlogGroupRepository.GetById(Int32 groupId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogGroupRepository.Save">
+            <summary>Sets the shim of BlogGroupRepository.Save()</summary>
+        </member>
+        <member name="T:DataLayer.Services.Fakes.ShimBlogRepository">
+            <summary>Shim type of DataLayer.Services.BlogRepository</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogRepository.#ctor(DataLayer.Services.BlogRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.CreateBlog">
+            <summary>Sets the shim of BlogRepository.Create(Blog blog)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.DeleteByIdInt32">
+            <summary>Sets the shim of BlogRepository.DeleteById(Int32 blogId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.Dispose">
+            <summary>Sets the shim of BlogRepository.Dispose()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.EditBlog">
+            <summary>Sets the shim of BlogRepository.Edit(Blog blog)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.GetAll">
+            <summary>Sets the shim of BlogRepository.GetAll()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.GetByIdForVMInt32">
+            <summary>Sets the shim of BlogRepository.GetByIdForVM(Int32 BlogId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of BlogRepository.GetById(Int32 BlogId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.AllInstances.Save">
+            <summary>Sets the shim of BlogRepository.Save()</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogRepository.Bind(DataLayer.Repositories.IBlogRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.ShimBlogRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.ConstructorMyProjectContext">
+            <summary>Sets the shim of BlogRepository.BlogRepository(MyProjectContext context)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.CreateBlog">
+            <summary>Sets the shim of BlogRepository.Create(Blog blog)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.DeleteByIdInt32">
+            <summary>Sets the shim of BlogRepository.DeleteById(Int32 blogId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.Dispose">
+            <summary>Sets the shim of BlogRepository.Dispose()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.EditBlog">
+            <summary>Sets the shim of BlogRepository.Edit(Blog blog)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.GetAll">
+            <summary>Sets the shim of BlogRepository.GetAll()</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.GetByIdForVMInt32">
+            <summary>Sets the shim of BlogRepository.GetByIdForVM(Int32 BlogId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.GetByIdInt32">
+            <summary>Sets the shim of BlogRepository.GetById(Int32 BlogId)</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.ShimBlogRepository.Save">
+            <summary>Sets the shim of BlogRepository.Save()</summary>
+        </member>
+        <member name="T:DataLayer.Services.Fakes.StubBlogGroupRepository">
+            <summary>Stub type of DataLayer.Services.BlogGroupRepository</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.StubBlogGroupRepository.#ctor(DataLayer.Context.MyProjectContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.StubBlogGroupRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.StubBlogGroupRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubBlogGroupRepository</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.StubBlogGroupRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.StubBlogGroupRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DataLayer.Services.Fakes.StubBlogRepository">
+            <summary>Stub type of DataLayer.Services.BlogRepository</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.StubBlogRepository.#ctor(DataLayer.Context.MyProjectContext)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.StubBlogRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:DataLayer.Services.Fakes.StubBlogRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubBlogRepository</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.StubBlogRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DataLayer.Services.Fakes.StubBlogRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

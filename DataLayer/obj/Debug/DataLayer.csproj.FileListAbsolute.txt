@@ -1,0 +1,14 @@
+D:\news\MyProjectCMS\DataLayer\bin\Debug\DataLayer.dll.config
+D:\news\MyProjectCMS\DataLayer\bin\Debug\DataLayer.dll
+D:\news\MyProjectCMS\DataLayer\bin\Debug\DataLayer.pdb
+D:\news\MyProjectCMS\DataLayer\bin\Debug\EntityFramework.dll
+D:\news\MyProjectCMS\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\news\MyProjectCMS\DataLayer\bin\Debug\EntityFramework.xml
+D:\news\MyProjectCMS\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.Migrations.FirstDB.resources
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.csproj.GenerateResource.Cache
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.dll
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.pdb
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\news\MyProjectCMS\DataLayer\obj\Debug\DataLayer.Migrations.ChangeVisitTypeStringToInt.resources
